@@ -1,0 +1,15 @@
+<!--Pricing Block-->
+<div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+	<div class="pricing-block-content">
+		<h3>{{blog.title}}</h3>
+		<p class="pricing-sub">By {{blog.author}}</p>
+		<div class="pricing">
+			<img src="../assets/images/gallery-images/{{blog.image}}" alt="" srcset="">
+		</div>
+		<ul>
+			{{blog.summury}}
+		</ul>
+		<a routerLink="/blog/{{blog.title}}" class="button">Read More</a>
+	</div>
+</div>
+<!--End Pricing Block-->
